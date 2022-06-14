@@ -3,7 +3,7 @@ from time import sleep
 c = 0
 d = 0
 while True:
-    pc = randint(0,5)
+    pc = randint(0,10)
     opcao = str(input('Ímpar ou par: ')).strip().upper()[0]
     jogador = int(input('Digite seu número: '))
     while opcao not in "PpIi":
